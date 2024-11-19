@@ -33,10 +33,9 @@
         "creates_events": false
       },
       "metrics": {
-        "prefix": "apollo.",
+        "prefix": "apollo.operations.",
         "check": [
-          "apollo.operations.count",
-          "apollo.engine.operations.count"
+          "apollo.operations.count"
         ],
         "metadata_path": "metadata.csv"
       },
